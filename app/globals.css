@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --bg: #f6fafd;
+  --primary: #004d6a;
+  --primary-container: #00668b;
+  --on-surface: #171c1f;
+  --on-surface-variant: #40484e;
+  --surface-container-low: #f0f4f7;
+  --surface-container-lowest: #ffffff;
+  --outline-variant: #bfc8cf;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--on-surface);
+  font-family: var(--font-sans);
+}
+
+.glass-nav {
+  background: rgba(246, 250, 253, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
