@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 
 const initialRoster = [
   { id: 1, name: "Alexander Wright", present: true },
-  { id: 2, name: "Beatrix Thorne", present: true },
+  { id: 2, name: "Kumpol Saengtabtim", present: true },
   { id: 3, name: "Caleb Vance", present: true },
   { id: 4, name: "Daphne Bloom", present: true },
   { id: 5, name: "Elias Frost", present: true },
